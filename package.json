@@ -1,0 +1,30 @@
+{
+  "name": "redux-thunk-promise",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.es.json&&tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LPegasus/redux-thunk-promise.git"
+  },
+  "module.root": "es",
+  "author": {
+    "email": "pegusas1@hotmail.com",
+    "name": "Pegasusknight"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LPegasus/redux-thunk-promise/issues"
+  },
+  "files": [
+    "./es",
+    "./dist"
+  ],
+  "homepage": "https://github.com/LPegasus/redux-thunk-promise#readme",
+  "devDependencies": {
+    "redux": "^3.7.2"
+  }
+}
