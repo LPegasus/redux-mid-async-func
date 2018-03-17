@@ -23,6 +23,10 @@ With redux-thunk you don't now whether have async FUNCs been finished. So here, 
 ## How to use
 What different with thunk is that, please ensure all the thunk FUNCs return a Promise.
 ```javascript
+import reduxMidAyncFunc from 'redux-mid-async-func';
+
+const store = createStore(reducer, state, applyMiddleware(reduxMidAsyncFunc));
+
 const thunk1 = async(dispatch, getState) => {
   return new Promise(r => {
     API1.fetch({data: getState().data1}).then(resp => r(dispatch({ type: 'API1.success', payload: resp })));
