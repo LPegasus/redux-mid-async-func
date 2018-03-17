@@ -1,5 +1,5 @@
 {
-  "name": "redux-thunk-promise",
+  "name": "redux-mid-async-func",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LPegasus/redux-thunk-promise.git"
+    "url": "git+https://github.com/LPegasus/redux-mid-async-func.git"
   },
   "module.root": "es",
   "author": {
@@ -17,13 +17,13 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LPegasus/redux-thunk-promise/issues"
+    "url": "https://github.com/LPegasus/redux-mid-async-func/issues"
   },
   "files": [
     "./es",
     "./dist"
   ],
-  "homepage": "https://github.com/LPegasus/redux-thunk-promise#readme",
+  "homepage": "https://github.com/LPegasus/redux-mid-async-func#readme",
   "devDependencies": {
     "redux": "^3.7.2"
   }
