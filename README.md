@@ -2,7 +2,7 @@
 ## what the different between redux-thunk
 Use Promise.resolve to return dispatch result.
 
-## Which situation you need it
+## What situation you need it
 Imagine you have two apis. API-1 and API-2. There're no dependence between them.
 ```javascript
 const thunk1 = (dispatch, getState) => {
